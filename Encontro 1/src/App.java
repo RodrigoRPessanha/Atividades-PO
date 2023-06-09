@@ -7,6 +7,8 @@ public class App {
                     {1, 1, 1, 1, 1},
                     {1, 1, 1, 1, 1}
                 };
+        int[] V = {1, 1, 1, 1, 1};
+        int[] P = {1, 1, 1, 1, 1};
 
         System.out.println(questao1A(A));
         System.out.println(questao1B(A));
@@ -130,6 +132,15 @@ public class App {
                 resultado += A[i][j];
             }
             
+        }
+        return resultado;
+    }
+    public static int questao1J(int[] P) {
+        int resultado = 0;
+        for (int i = 0; i < P.length; i++) {
+            for (int j = 0; j < P[0].length; j++) {
+                resultado += P[j][i];
+            }  
         }
         return resultado;
     }
