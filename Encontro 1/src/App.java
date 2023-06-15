@@ -66,7 +66,6 @@ public class App {
         return resultado;
     }
     
-
     public static int questao1B(int[][] A) {
         int resultado = 0, soma = 0;
         for (int j = 0; j < A[0].length; j++) {
@@ -134,6 +133,7 @@ public class App {
         }
         return resultado;
     }
+
     public static int questao1G(int[][] A) {
         int resultado = 0, soma = 0;
         for (int i = 0; i < A.length; i++) {
@@ -147,6 +147,7 @@ public class App {
         }
         return resultado;
     }
+
     public static int questao1H(int[][] A, int x) {
         int resultado = 0, soma = 0;
         for (int i = 0; i < A.length; i++) {
@@ -158,6 +159,7 @@ public class App {
         }
         return resultado;
     }
+
     public static void questao1I(int[][] A, int[] V) {
         int soma = 0;
         System.out.print("[ ");
