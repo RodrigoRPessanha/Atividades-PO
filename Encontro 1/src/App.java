@@ -40,14 +40,16 @@ public class App {
         System.out.println();
         
         System.out.println("------------------Questao 3------------------");
-        System.out.println("Digite um valor para K: ");
+        System.out.println("Digite um valor para k: ");
         int k = input.nextInt();
         System.out.println(questao3(k));
         System.out.println();
 
         System.out.println("------------------Questao 4------------------");
         input.nextLine();
+        System.out.println("Digite um valor para x: ");
         int x = input.nextInt();
+        System.out.println("Digite um valor para y: ");
         int y = input.nextInt();
         System.out.println(questao4(x, y));
         
